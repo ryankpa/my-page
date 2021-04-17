@@ -2,7 +2,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 5fr 1fr;
-  min-height: 300vh;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -40,6 +40,7 @@
 nav {
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
+  max-height: 100vh;
 }
 
 a {

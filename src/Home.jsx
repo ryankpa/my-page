@@ -6,8 +6,8 @@ class Home extends React.Component {
     render() {
         return (
             <div className="content p-8 text-left">
-                <div className="">
-                    <h1 className="text-5xl font-bold fade-in mb-5 text-center">Welcome to my page!</h1>
+                <div className="fade-in">
+                    <h1 className="text-5xl font-bold mb-5 text-center">Welcome to my page!</h1>
                     <p className="pb-5 text-center">This site is still under construction!</p>
                 </div>
                 <div className="fade-in">
