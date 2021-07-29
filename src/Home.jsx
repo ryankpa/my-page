@@ -1,17 +1,19 @@
 import './App.css';
 import React from 'react';
+import myIcon from './assets/icon.png';
 
 class Home extends React.Component {
 
     render() {
         return (
-            <div className="lg:h-screen p-8 lg:overflow-y-scroll">
-                <div className="fade-in">
-                    <h1 className="text-5xl font-bold mb-5 text-center">Welcome to my page!</h1>
-                    <p className="pb-5 text-center">This site is still under construction!</p>
+            <div className="">
+                <div className="fade-in h-yoru bg-yoru bg-opacity-25 bg-repeat-x">
+                    <h1 className="text-5xl font-bold pt-32 mb-4 px-80 text-left">Hi there!</h1>
+                    <p className=" px-80 text-left">This site is still under construction!</p>
                 </div>
                 <div className="fade-in">
-                    <h2 className="text-3xl text-white bg-gradient-to-r from-yellow-400 to-blue-300 p-5 rounded-md shadow-lg w-48">Who am I?</h2>
+                    <h2 className="text-3xl text-white bg-gradient-to-r from-yellow-400 to-blue-300 p-5 shadow-lg max-w-full">Who am I?</h2>
+                    <img className="float-left rounded-full object-scale-down min-h-xs m-auto" src={myIcon} alt="A drawing of myself that I made"></img>
                     <p className="p-5">
                         My name is Ryan Kevin Atienza, and I'm a recent university graduate. I earned my B.S. in Computer Science 
                         from California State Polytechnic University, Pomona in May '21. Because of their "learn by doing" pedagogy,
