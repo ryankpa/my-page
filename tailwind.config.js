@@ -13,7 +13,7 @@ module.exports = {
       'contain': 'contain',
     },
     height: {
-      'yoru': '200px',
+      'yoru': '150px',
      }
   },
   variants: {
