@@ -5,7 +5,7 @@ export class PrettyHeader extends React.Component {
         return(
             <div id='PrettyHeader'>
                 <div id='backtext'>RKPA</div>
-                <header>RYAN POG</header>
+                <header class='fade-in'>ryan atienza</header>
             </div>
         );
     }
