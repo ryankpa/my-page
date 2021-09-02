@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.2159815f.chunk.css",
-    "main.js": "/my-page/static/js/main.f9ea3c4a.chunk.js",
-    "main.js.map": "/my-page/static/js/main.f9ea3c4a.chunk.js.map",
-    "runtime-main.js": "/my-page/static/js/runtime-main.e90048c9.js",
-    "runtime-main.js.map": "/my-page/static/js/runtime-main.e90048c9.js.map",
-    "static/js/2.e8e6fe39.chunk.js": "/my-page/static/js/2.e8e6fe39.chunk.js",
-    "static/js/2.e8e6fe39.chunk.js.map": "/my-page/static/js/2.e8e6fe39.chunk.js.map",
-    "static/js/3.e3862d06.chunk.js": "/my-page/static/js/3.e3862d06.chunk.js",
-    "static/js/3.e3862d06.chunk.js.map": "/my-page/static/js/3.e3862d06.chunk.js.map",
-    "index.html": "/my-page/index.html",
-    "static/css/main.2159815f.chunk.css.map": "/my-page/static/css/main.2159815f.chunk.css.map",
-    "static/js/2.e8e6fe39.chunk.js.LICENSE.txt": "/my-page/static/js/2.e8e6fe39.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/my-page/static/media/bg_pattern4_yoru.022ca3cc.png",
-    "static/media/App.css": "/my-page/static/media/connectwork.ce2e9831.png"
+    "main.css": "/static/css/main.01bbbf65.chunk.css",
+    "main.js": "/static/js/main.f9ea3c4a.chunk.js",
+    "main.js.map": "/static/js/main.f9ea3c4a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.66ed7b9e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.66ed7b9e.js.map",
+    "static/js/2.e8e6fe39.chunk.js": "/static/js/2.e8e6fe39.chunk.js",
+    "static/js/2.e8e6fe39.chunk.js.map": "/static/js/2.e8e6fe39.chunk.js.map",
+    "static/js/3.e3862d06.chunk.js": "/static/js/3.e3862d06.chunk.js",
+    "static/js/3.e3862d06.chunk.js.map": "/static/js/3.e3862d06.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.01bbbf65.chunk.css.map": "/static/css/main.01bbbf65.chunk.css.map",
+    "static/js/2.e8e6fe39.chunk.js.LICENSE.txt": "/static/js/2.e8e6fe39.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/bg_pattern4_yoru.022ca3cc.png",
+    "static/media/App.css": "/static/media/connectwork.ce2e9831.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e90048c9.js",
+    "static/js/runtime-main.66ed7b9e.js",
     "static/js/2.e8e6fe39.chunk.js",
-    "static/css/main.2159815f.chunk.css",
+    "static/css/main.01bbbf65.chunk.css",
     "static/js/main.f9ea3c4a.chunk.js"
   ]
 }
