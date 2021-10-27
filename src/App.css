@@ -1,6 +1,6 @@
-/*
-  h1 background from www.subtlepatterns.com
-*/
+.App {
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
@@ -28,125 +28,11 @@
   color: #61dafb;
 }
 
-/* width */
-.content::-webkit-scrollbar {
-  width: 8px;
-}
- 
-/* Handle */
-.content::-webkit-scrollbar-thumb {
-  background: royalblue; 
-}
-
-body {
-  background-color: rgb(44, 44, 44);
-}
-
-a {
-  color: royalblue;
-  text-decoration: underline;
-}
-
-* {
-  font-size: 18px;
-  line-height: 1.5em;
-}
-
-p {
-  padding: 16px;
-}
-
-ul {
-  padding: 16px;
-}
-
-h1 {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 30px;
-  width: max-content;
-  padding: 8px;
-  margin: 16px 0px;
-  box-shadow: 10px 10px rgb(179, 134, 67);
-  font-weight: bold;
-  color: rgb(179, 134, 67);
-  background-image: url('./assets/connectwork/connectwork/connectwork.png');
-  background-repeat: repeat;
-}
-
-.fade-in {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: .4s;
-}
-
-.headers {
-  width: 80vw;
-  border-bottom: dotted black 1px;
-  margin-left: 6px;
-  margin-bottom: 8px;
-  background-image: linear-gradient(white, rgb(0, 0, 0, 0));
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0px;
-}
-
-@keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-nav {
-  width: 100%;
-  box-sizing: border-box;
-  height: 3em;
-  background-color: rgb(14, 13, 13);
-  color: rgb(179, 134, 67);
-  text-align: center;
-}
-
-section {
-  height: max-content;
-  background-color: white;
-}
-
-em {
-  color: rgb(179, 134, 67);
-}
-
-
-#PrettyHeader {
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  width: 300px;
-  margin: auto;
-  height: 100px; /* adjust this later for responsiveness */
-  position: relative;
-}
-
-#backtext {
-  position: absolute;
-  font-size: 104px; /* adjust this later for responsiveness */
-  width: inherit;
-  font-weight: bolder;
-  color: rgb(179, 134, 67);
-  letter-spacing: -4px;
-  font-family: 'Major Mono Display', monospace;
-}
-
-header {
-  position: relative;
-  width: inherit;
-  font-family: 'Kaisei Opti', serif;
-  font-size: 40px;
-  letter-spacing: 5px;
-  text-align: center;
-  color: white;
-  vertical-align: middle;
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
