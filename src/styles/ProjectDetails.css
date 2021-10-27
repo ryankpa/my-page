@@ -1,0 +1,18 @@
+.project_details {
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+}
+section {
+    width: fit-content;
+}
+.project_details section:first-child{
+    background-color: aquamarine;
+    padding: 40px;
+}
+
+img {
+    position: static;
+    width: 100%;
+    height: auto;
+}
