@@ -1,7 +1,6 @@
-
-function ImageCarousel(props) {
+function Gallery(props) {
     return (
-        <div className="carousel">
+        <div className="gallery">
             {props.imageArray.map((item, index) => {
                 return <img src={item.image} alt={item.alt_text} />;
             })
@@ -10,4 +9,4 @@ function ImageCarousel(props) {
     )
 }
 
-export default ImageCarousel;
+export default Gallery;

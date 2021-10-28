@@ -5,8 +5,9 @@ import ChickpeaDetails from "./Chickpea";
 function Projects() {
     return (
         <div className="projects">
+            <h2>Projects</h2>
             <section>
-                <h2>Projects</h2>
+                <ChickpeaDetails />
                 <ChickpeaDetails />
             </section>
         </div>

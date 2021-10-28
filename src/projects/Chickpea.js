@@ -1,5 +1,5 @@
 import '../styles/ProjectDetails.css';
-import ImageCarousel from '../ImageCarousel'
+import Gallery from '../Gallery'
 
 // importing images
 import chickpea1 from "../assets/chickpea-images/chickpea1.png";
@@ -7,7 +7,7 @@ import chickpea2 from "../assets/chickpea-images/chickpea2.png";
 import chickpea3 from "../assets/chickpea-images/chickpea3.png";
 
 function ChickpeaDetails() {
-    // create array?
+    // create array to send as prop
     var images = [];
     images.push({
         image: chickpea1,
@@ -26,7 +26,7 @@ function ChickpeaDetails() {
             <section>
                 <h3>Chickpea Grocery Delivery Web App</h3>
                 <p>School Project</p>
-                <p>February 2021 - May 2021</p>
+                <p className="project_duration">Feb 2021 - May 2021</p>
                 <p><em>Role: Full Stack</em> (more weight on backend)</p>
                 <p>Used: Node.js, Express.js, React, Jest, MongoDB</p>
                 <h4>Summary of Responsibilities</h4>
@@ -40,7 +40,7 @@ function ChickpeaDetails() {
                 <p>Detailed logs of my contributions to the project can be found at <a href="https://legumeslte.neocities.org/">my team's website</a>.</p>
             </section>
             <section>
-                <ImageCarousel imageArray={images} />
+                <Gallery imageArray={images} />
             </section>
         </div>
     )

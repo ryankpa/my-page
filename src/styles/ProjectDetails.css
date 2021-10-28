@@ -1,4 +1,8 @@
 .project_details {
+    position: relative;
+    background-color: rgb(152, 189, 93);
+    margin:  0 3rem;
+    padding: 0 2rem;
     display: flex;
     flex-direction: row;
     width: inherit;
@@ -7,8 +11,25 @@ section {
     width: fit-content;
 }
 .project_details section:first-child{
-    background-color: aquamarine;
+    height: fit-content;
     padding: 40px;
+    position: sticky;
+    text-align: left;
+    top: 0px;
+    color: rgb(66, 15, 42);
+}
+
+.project_duration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: min-content;
+    font-size: 4rem;
+    text-align: right;
+    font-weight: bolder;
+    color: rgb(255, 221, 241);
+    opacity: 0.5;
+    z-index: -1;
 }
 
 img {

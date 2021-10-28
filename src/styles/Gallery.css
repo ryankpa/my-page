@@ -1,0 +1,6 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    column-gap: 1rem;
+}
