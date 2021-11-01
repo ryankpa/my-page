@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.255b2605.chunk.css",
-    "main.js": "/static/js/main.92309cf9.chunk.js",
-    "main.js.map": "/static/js/main.92309cf9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3e411534.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3e411534.js.map",
-    "static/js/2.c8a8b625.chunk.js": "/static/js/2.c8a8b625.chunk.js",
-    "static/js/2.c8a8b625.chunk.js.map": "/static/js/2.c8a8b625.chunk.js.map",
-    "static/js/3.031770b3.chunk.js": "/static/js/3.031770b3.chunk.js",
-    "static/js/3.031770b3.chunk.js.map": "/static/js/3.031770b3.chunk.js.map",
+    "main.css": "/static/css/main.9320734e.chunk.css",
+    "main.js": "/static/js/main.d0f29719.chunk.js",
+    "main.js.map": "/static/js/main.d0f29719.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b3c33788.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b3c33788.js.map",
+    "static/js/2.e96ab90a.chunk.js": "/static/js/2.e96ab90a.chunk.js",
+    "static/js/2.e96ab90a.chunk.js.map": "/static/js/2.e96ab90a.chunk.js.map",
+    "static/js/3.d08afc90.chunk.js": "/static/js/3.d08afc90.chunk.js",
+    "static/js/3.d08afc90.chunk.js.map": "/static/js/3.d08afc90.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.255b2605.chunk.css.map": "/static/css/main.255b2605.chunk.css.map",
-    "static/js/2.c8a8b625.chunk.js.LICENSE.txt": "/static/js/2.c8a8b625.chunk.js.LICENSE.txt",
+    "static/css/main.9320734e.chunk.css.map": "/static/css/main.9320734e.chunk.css.map",
+    "static/js/2.e96ab90a.chunk.js.LICENSE.txt": "/static/js/2.e96ab90a.chunk.js.LICENSE.txt",
     "static/media/chickpea1.48aecf96.png": "/static/media/chickpea1.48aecf96.png",
     "static/media/chickpea2.46b54740.png": "/static/media/chickpea2.46b54740.png",
-    "static/media/chickpea3.f6d4ad73.png": "/static/media/chickpea3.f6d4ad73.png"
+    "static/media/chickpea3.f6d4ad73.png": "/static/media/chickpea3.f6d4ad73.png",
+    "static/media/chickpea4.d160d9d6.png": "/static/media/chickpea4.d160d9d6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3e411534.js",
-    "static/js/2.c8a8b625.chunk.js",
-    "static/css/main.255b2605.chunk.css",
-    "static/js/main.92309cf9.chunk.js"
+    "static/js/runtime-main.b3c33788.js",
+    "static/js/2.e96ab90a.chunk.js",
+    "static/css/main.9320734e.chunk.css",
+    "static/js/main.d0f29719.chunk.js"
   ]
 }
