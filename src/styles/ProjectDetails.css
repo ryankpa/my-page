@@ -1,22 +1,43 @@
 .project_details {
     position: relative;
     background-color: rgb(152, 189, 93);
-    margin:  0 3rem;
-    padding: 0 2rem;
+    margin:  2rem;
+    padding: 2rem;
     display: flex;
     flex-direction: row;
     width: inherit;
+    gap: 1rem;
+    box-shadow: 10px 10px 0px 0px rgb(39, 93, 114);
+    border-radius: 1rem;
+    border-right: 10px solid rgb(236, 150, 37);
+    border-bottom: 10px solid rgb(236, 150, 37);
 }
-section {
+.project_details section {
     width: fit-content;
 }
+
 .project_details section:first-child{
     height: fit-content;
     padding: 40px;
     position: sticky;
     text-align: left;
     top: 0px;
-    color: rgb(66, 15, 42);
+}
+
+.project_details section + section {
+    border-left: 3px double rgb(39, 93, 114);
+}
+
+.project_details h3 {
+    font-size: 4rem;
+    width: auto;
+    margin: 0;
+}
+
+.project_details .description {
+    background-color: rgba(248, 255, 221, .8);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 .project_duration {
@@ -27,13 +48,7 @@ section {
     font-size: 4rem;
     text-align: right;
     font-weight: bolder;
-    color: rgb(255, 221, 241);
-    opacity: 0.5;
+    color: rgb(39, 93, 114);
+    opacity: .8;
     z-index: -1;
-}
-
-img {
-    position: static;
-    width: 100%;
-    height: auto;
 }

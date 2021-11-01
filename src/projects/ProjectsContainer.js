@@ -1,6 +1,7 @@
 import '../styles/Projects.css'
 
 import ChickpeaDetails from "./Chickpea";
+import FroggierDetails from './Froggier';
 
 function Projects() {
     return (
@@ -8,7 +9,7 @@ function Projects() {
             <h2>Projects</h2>
             <section>
                 <ChickpeaDetails />
-                <ChickpeaDetails />
+                <FroggierDetails />
             </section>
         </div>
     );

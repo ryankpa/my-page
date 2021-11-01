@@ -6,6 +6,19 @@ body {
   text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: #cf2d91;
+}
+
+p {
+  font-size: 1.2em;
+  color: rgb(114, 21, 72);
+}
+
+h2 { 
+  color: rgb(114, 21, 72);
+}
+
+li {
+  list-style: none;
 }
