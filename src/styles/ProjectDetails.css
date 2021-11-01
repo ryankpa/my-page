@@ -18,10 +18,7 @@
 
 .project_details section:first-child{
     height: fit-content;
-    padding: 40px;
-    position: sticky;
     text-align: left;
-    top: 0px;
 }
 
 .project_details section + section {
@@ -41,14 +38,11 @@
 }
 
 .project_duration {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: min-content;
-    font-size: 4rem;
-    text-align: right;
+    width: fit-content;
+    margin: 0;
+    font-size: 2rem;
+    text-align: left;
     font-weight: bolder;
     color: rgb(39, 93, 114);
     opacity: .8;
-    z-index: -1;
 }

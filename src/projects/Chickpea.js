@@ -6,30 +6,43 @@ import chickpea1 from "../assets/chickpea-images/chickpea1.png";
 import chickpea2 from "../assets/chickpea-images/chickpea2.png";
 import chickpea3 from "../assets/chickpea-images/chickpea3.png";
 import chickpea4 from "../assets/chickpea-images/chickpea4.png";
+import { useEffect } from 'react';
+import { useState } from 'react';
 
-function ChickpeaDetails() {
-    // create array to send as prop to gallery component
-    var images = [];
-    images.push({
+function createImageArray(){
+    let img_array = [];
+    img_array.push({
         image: chickpea1,
         alt_text: "Screenshot of Chickpea's Account Information screen"
     });
-    images.push({
+    img_array.push({
         image: chickpea2,
         alt_text: "Screenshot of Chickpea's Cart screen"
     });
-    images.push({
+    img_array.push({
         image: chickpea3,
         alt_text: "Screenshot of Chickpea's API landing page, which includes documentation on how to interface with it"
     });
-    images.push({
+    img_array.push({
         image: chickpea4,
         alt_text: "Screenshot of Chickpea's landing page"
     });
+    return img_array;
+}
+
+function ChickpeaDetails() {
+    var images = createImageArray();
+    const[computedHeight, setHeight] = useState(0);
+
+    useEffect(() => {
+        var descElement = document.getElementById('chickpea_desc');
+        var computedStyle = window.getComputedStyle(descElement);
+        setHeight(computedStyle.getPropertyValue('height'));
+    }, []);
 
     return (
         <div className="project_details">
-            <section>
+            <section id='chickpea_desc'>
                 <h3>Chickpea</h3>
                 <p className="project_duration">Feb 2021 - May 2021</p>
                 <div className="description">
@@ -47,7 +60,7 @@ function ChickpeaDetails() {
                     <p>Detailed logs of my contributions to the project can be found at <a href="https://legumeslte.neocities.org/">my team's website</a>.</p>
                 </div>
             </section>
-            <section>
+            <section style={{height: computedHeight}}>
                 <Gallery imageArray={images} />
             </section>
         </div>

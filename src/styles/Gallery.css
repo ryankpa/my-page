@@ -1,15 +1,26 @@
 .gallery img {
-    position: static;
     width: 100%;
-    height: auto;
 }
 
 .gallery {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-    overflow: hidden;
-    gap: 1rem;
+    height: inherit;
+    flex-flow: column;
+    flex: 0 1 auto;
     padding-left: 1rem;
+    gap: 1rem;
+    overflow-y: scroll;
+}
+
+.gallery::-webkit-scrollbar {
+    width: 1rem;
+}
+
+.gallery::-webkit-scrollbar-track {
+    padding-left: 1rem;
+    background-color: rgb(39, 93, 114);
+}
+   
+.gallery::-webkit-scrollbar-thumb {
+    background-color: rgb(236, 150, 37);
 }
