@@ -16,14 +16,17 @@
 }
 
 .gallery::-webkit-scrollbar {
-    width: 1rem;
+    width: .5rem;
 }
 
 .gallery::-webkit-scrollbar-track {
-    padding-left: 1rem;
     background-color: rgb(39, 93, 114);
+    border-radius: 3px;
 }
    
 .gallery::-webkit-scrollbar-thumb {
-    background-color: rgb(236, 150, 37);
+    background-color: rgb(247, 154, 100);
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: rgb(114, 21, 72);
 }

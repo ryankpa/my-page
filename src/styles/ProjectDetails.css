@@ -5,15 +5,26 @@
     padding: 2rem;
     display: flex;
     flex-direction: row;
-    width: inherit;
+    width: 100%;
     gap: 1rem;
     box-shadow: 10px 10px 0px 0px rgb(39, 93, 114);
     border-radius: 1rem;
-    border-right: 10px solid rgb(236, 150, 37);
-    border-bottom: 10px solid rgb(236, 150, 37);
+    border-right: 10px solid rgb(247, 154, 100);
+    border-bottom: 10px solid rgb(247, 154, 100);
 }
+
 .project_details section {
     width: fit-content;
+}
+
+@media only screen and (max-width: 1200px) {
+    .project_details{
+        flex-direction: column;
+    }
+
+    .project_details section {
+        width: 100%;
+    }
 }
 
 .project_details section:first-child{
@@ -23,6 +34,7 @@
 
 .project_details section + section {
     border-left: 3px double rgb(39, 93, 114);
+    background-color: rgba(248, 255, 221, .8);
 }
 
 .project_details h3 {
