@@ -1,15 +1,18 @@
 .gallery img {
     width: 100%;
+    scroll-snap-align: start;
 }
 
 .gallery {
     display: flex;
     height: inherit;
-    flex-flow: column;
+    flex-flow: row wrap;
     flex: 0 1 auto;
     padding-left: 1rem;
-    gap: 1rem;
     overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    gap: .5rem;
+    padding-right: 1rem;
 }
 
 .gallery::-webkit-scrollbar {
