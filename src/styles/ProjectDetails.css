@@ -1,11 +1,11 @@
 .project_details {
     position: relative;
-    background-color: rgb(152, 189, 93);
+    background-color: rgb(148, 168, 115);
     margin:  2rem;
     padding: 2rem;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: fit-content;
     gap: 1rem;
     box-shadow: 10px 10px 0px 0px rgb(39, 93, 114);
     border-radius: 1rem;
@@ -34,7 +34,7 @@
 
 .project_details section + section {
     border-left: 3px double rgb(39, 93, 114);
-    background-color: rgba(248, 255, 221, .8);
+    background-color: rgba(238, 216, 170, 0.8);
 }
 
 .project_details h3 {
@@ -44,7 +44,7 @@
 }
 
 .project_details .description {
-    background-color: rgba(248, 255, 221, .8);
+    background-color: rgba(238, 216, 170, 0.8);
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -55,6 +55,5 @@
     font-size: 2rem;
     text-align: left;
     font-weight: bolder;
-    color: rgb(39, 93, 114);
-    opacity: .8;
+    color: rgba(18, 116, 155, .8);
 }
