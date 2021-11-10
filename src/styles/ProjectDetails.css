@@ -1,6 +1,6 @@
 .project_details {
     position: relative;
-    background-color: rgb(148, 168, 115);
+    background-color: rgb(169, 190, 113);
     margin:  2rem;
     padding: 2rem;
     display: flex;
@@ -34,7 +34,7 @@
 
 .project_details section + section {
     border-left: 3px double rgb(39, 93, 114);
-    background-color: rgba(238, 216, 170, 0.8);
+    background-color: rgb(247, 228, 187);
 }
 
 .project_details h3 {
@@ -44,7 +44,7 @@
 }
 
 .project_details .description {
-    background-color: rgba(238, 216, 170, 0.8);
+    background-color: rgb(247, 228, 187);
     padding: 2rem;
     border-radius: 1rem;
 }
